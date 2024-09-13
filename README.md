@@ -27,6 +27,7 @@ If you encountered any errors, open a new issue
 
 ## ♥️ Socials
 ▶️ Discord - [VXNET DISCORD](https://discord.gg/HmGHGww2kY)
+
 ▶️ YouTube - [@vxrip](https://youtube.com/@vxrip)
 
 ## ⚠️ Disclaimer V2 ⚠️
