@@ -22,11 +22,11 @@ Crypto Wallet Searcher is an advanced tool designed for cryptocurrency enthusias
 ## ⚠️ Disclaimer ⚠️
 This tool is provided without warranty. It is not intended for malicious use or for managing real cryptocurrency assets. The authors and contributors of Crypto Wallet Searcher are not responsible for any financial losses or security issues that might arise from its misuse. Follow cryptocurrency security best practices.
 
-## Issues
+## 🤡 Issues
 If you encountered any errors, open a new issue
 
-## Socials
-▶️ Discord
+## ♥️ Socials
+▶️ Discord - [VXNET DISCORD](https://discord.gg/HmGHGww2kY)
 ▶️ YouTube - [@vxrip](https://youtube.com/@vxrip)
 
 ## ⚠️ Disclaimer V2 ⚠️
