@@ -7,7 +7,7 @@ Crypto Wallet Searcher is an advanced tool designed for cryptocurrency enthusias
 - **Wallet Address Generator**: Randomly generate wallet addresses for various cryptocurrencies.
 - **Balance Checker**: Automatically check if the generated wallet addresses have any existing balances in their corresponding networks.
 
-## Supported Cryptocurrencies
+## 💷 Supported Cryptocurrencies
 - Bitcoin (BTC)
 - Litecoin (LTC)
 - Ethereum (ETH)
