@@ -15,6 +15,9 @@ Crypto Wallet Searcher is an advanced tool designed for cryptocurrency enthusias
 
 🫴 This script will continuously generate random wallet addresses for the supported cryptocurrencies, check for balances, and log any addresses with existing balances.
 
+# 💸 Price:
+**$1 per day (price negotiable)**
+
 ## 🖐️ Security Considerations 🖐️
 - **Educational and Research Purposes**: This tool is meant for research and educational purposes only. Do not use it to attempt unauthorized access to blockchain assets.
 - **Security Practices**: Ensure your testing environment is secure, especially when handling cryptocurrencies.
