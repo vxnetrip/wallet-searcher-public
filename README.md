@@ -16,7 +16,7 @@ Crypto Wallet Searcher is an advanced tool designed for cryptocurrency enthusias
 🫴 This script will continuously generate random wallet addresses for the supported cryptocurrencies, check for balances, and log any addresses with existing balances.
 
 #  💳 Price:
-**$1 per 3 days (price negotiable because we need testers)**
+**PRICES ON HTTPS://VXNETRIP.PL LOG IN INTO CUSTOMER PANEL AND CLICK ON PROJECTS - THEN ALL PROJECTS AND PRICES FOR IT WILL APPEAR**
 
 # How to buy?
 
