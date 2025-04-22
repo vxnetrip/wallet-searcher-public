@@ -30,9 +30,6 @@ Crypto Wallet Searcher is an advanced tool designed for cryptocurrency enthusias
 
 #  💳 Price:
 Now we are publishing wallet searcher for **FREE**
-Any
-
-# How to buy?
 
 ## 🖐️ Security Considerations 🖐️
 - **Educational and Research Purposes**: This tool is meant for research and educational purposes only. Do not use it to attempt unauthorized access to blockchain assets.
