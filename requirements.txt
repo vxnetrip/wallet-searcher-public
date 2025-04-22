@@ -1,0 +1,22 @@
+requests
+requests[socks]
+mnemonic 
+bip32utils 
+xrpl-py # XRP RPC
+web3 # POLYGON
+eth_account # For ethereum
+base58
+aiohttp
+bech32
+cryptography
+pycryptodome
+rich
+colorama
+tls-client
+httpx
+pysocks
+bs4 # for proxy scraper
+bip32
+bip_utils
+
+wmi # for windows only for HWID

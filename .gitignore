@@ -1,0 +1,14 @@
+**/__pycache__/
+**/*.dll
+**/*.so
+**/*.a
+**/*.exe
+**/*.bin
+**/main.dist/
+**/main.onefile-build/
+**/main.build/
+**/venv/
+**/.vscode/
+input/
+win_venv/
+linux_venv/

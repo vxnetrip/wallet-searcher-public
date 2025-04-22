@@ -1,0 +1,56 @@
+name: Nuitka-Linux-Release-x64
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout code from repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      # Install dependencies and Nuitka
+      - name: Install Nuitka and dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install nuitka
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # Compile the Python script to executable
+      - name: Compile to binary with Nuitka
+        run: |
+          repo_name=$(basename $GITHUB_REPOSITORY)
+          nuitka --onefile --include-package=Crypto --include-package=eth_hash main.py
+
+          # Check the resulting directory for the compiled binary
+          if [ -f main.bin ]; then
+            mkdir -p bin
+            mv main.bin bin/${repo_name}-linux-x64.bin
+          elif [ -f main.dist/main ]; then
+            mkdir -p bin
+            mv main.dist/main bin/${repo_name}-linux-x64.bin
+          else
+            echo "Error: Compiled binary not found"
+            exit 1
+          fi
+
+      # Upload compiled binary
+      - name: Upload compiled binary
+        uses: actions/upload-artifact@v3
+        with:
+          name: linux-x64
+          path: bin/*.bin
